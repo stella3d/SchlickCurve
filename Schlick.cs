@@ -11,7 +11,7 @@ public static class Schlick
     /// <param name="x">input value, from 0 to 1</param>
     /// <param name="slope">slope of the curve starting at the <paramref name="threshold"/></param>
     /// <param name="threshold">value of <paramref name="x"/> where the curve reverses its shape</param>
-    /// <returns></returns>
+    /// <returns>the input value filtered by the curve</returns>
     public static float Curve(float x, float slope, float threshold)
     {
 #if UNITY_EDITOR && !DISABLE_SCHLICK_CURVE_CHECKS
@@ -34,6 +34,7 @@ public static class Schlick
     /// <param name="x">input value, from 0 to 1</param>
     /// <param name="slope">slope of the curve starting at the <paramref name="threshold"/></param>
     /// <param name="threshold">value of <paramref name="x"/> where the curve reverses its shape</param>
+    /// <returns>the input value filtered by the curve</returns>
     public static double Curve(double x, double slope, double threshold)
     {
 #if UNITY_EDITOR && !DISABLE_SCHLICK_CURVE_CHECKS
