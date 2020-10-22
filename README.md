@@ -4,8 +4,9 @@ Unity implementation of a generalization of Schlick’s 'bias' and 'gain' functi
 
 # Paper 
 
-This is an implementation of ["A Convenient Generalization of Schlick’s Bias and Gain Functions"](https://arxiv.org/pdf/2010.09714.pdf) by Jon Barron.  Please see the paper for details on the math.
+This is an implementation of ["A Convenient Generalization of Schlick’s Bias and Gain Functions"](https://arxiv.org/pdf/2010.09714.pdf) by Jon Barron.
 
+Please see the paper for details on the math.
 
 ## Usage
 
