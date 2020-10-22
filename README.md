@@ -9,6 +9,10 @@ This is an implementation of ["A Convenient Generalization of Schlick’s Bias a
 
 ## Usage
 
+First, download this repo directly into your Assets folder, either by cloning or downloading a .zip from GitHub.
+
+
+Then, in your scripts, it can be used like:
 ```
 var eased = Schlick.Curve(valueToEase, slope, threshold);
 ```
