@@ -10,7 +10,9 @@ This is an implementation of ["A Convenient Generalization of Schlick’s Bias a
 ### Demo Scene
 
 Open the scene `Schlick Curve Demo` to see a simple example.  
-Select the `Schlick Curve Test` object in the scene heirarchy - the controls for the demo are on its inspector. You can modify the `slope` and `threshold` of the curve function here.  Enter play mode to see it work.
+Select the `Schlick Curve Test` object in the scene heirarchy - the controls for the demo are on its inspector. You can modify the `slope` and `threshold` of the curve function here.  
+
+Enter play mode to see it work.
 
 The white cursor object will show you an unfiltered `sin(time)` value applied to position interpolation.
 
